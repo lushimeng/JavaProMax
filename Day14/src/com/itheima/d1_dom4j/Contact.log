@@ -1,0 +1,3 @@
+Contact{name='潘金莲', id=1, vip=true, gender=女, email='panpan@itcast.cn'}
+Contact{name='武松', id=2, vip=false, gender=男, email='wusong@itcast.cn'}
+Contact{name='武大狼', id=3, vip=false, gender=男, email='wuda@itcast.cn'}

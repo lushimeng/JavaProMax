@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>  <!-- 文档声明必须在第一行 -->
+
+<!-- 根标签只能有一个 -->
+<Student>      <!-- Student为根标签；name, sex, hobby, info, age, addr, sql1, sql2为标签；id为name标签的属性-->
+    <name>女儿国国王</name>
+    <sex>女</sex>
+    <hobby>唐僧、追唐僧</hobby>
+
+    <info>
+        <age>20</age>
+        <addr>女儿国</addr>
+    </info>
+    <sql1>
+        <!--下面的sql语句等价于： select * from user where age < 18 && age > 10; -->
+        select * from user where age &lt; 18 &amp;&amp; age &gt; 10;
+    </sql1>
+
+    <sql2>
+        <![CDATA[
+            select * from user where age > 100;
+        ]]>
+    </sql2>
+
+</Student>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
